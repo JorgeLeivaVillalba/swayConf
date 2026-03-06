@@ -1,0 +1,12 @@
+/Code
+/.mozilla
+/.vscode
+/.idea
+mimeapps.list
+sealert.conf
+user-dirs.dirs
+user-dirs.locale
+dconf
+procps 
+pulse
+abrt
