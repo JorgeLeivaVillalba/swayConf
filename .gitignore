@@ -2,6 +2,10 @@
 /.mozilla
 /.vscode
 /.idea
+/zed
+/github-copilot
+/xfce4 
+thunar.xml
 mimeapps.list
 sealert.conf
 user-dirs.dirs
