@@ -10,6 +10,7 @@
     "modules-right": [
         "cpu",
         "memory",
+        "sway/language",
         "backlight",
         "pulseaudio",
         "battery",
@@ -34,12 +35,18 @@
 
     "cpu": {
         "interval": 1,
-        "format": "CPU: {usage}%",
+        "format": " {usage}%"
     },
 
     "memory": {
         "interval": 1,
-        "format": "Mem:{}%"
+        "format": " {}%"
+    },
+
+    "sway/language": {
+        "format": "⌨ {short}",
+        "on-click": "swaymsg input type:keyboard xkb_switch_layout next",
+        "tooltip": false
     },
 
     "backlight": {

@@ -4,7 +4,9 @@
 /.idea
 /zed
 /github-copilot
-/xfce4 
+/xfce4
+/Thunar 
+accels.scm
 thunar.xml
 mimeapps.list
 sealert.conf
