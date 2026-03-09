@@ -63,7 +63,7 @@ configuration {
 
 	/*---------- Combi settings ----------*/
 /*	combi-modi: "window,run";*/
-/*	combi-hide-mode-prefix: false;*/
+	combi-hide-mode-prefix: true;
 /*	combi-display-format: "{mode} {text}";*/
 
 	/*---------- History and Sorting ----------*/
@@ -77,7 +77,7 @@ configuration {
 	display-run: "Run";
 	display-ssh: "SSH";
 	display-drun: "Apps";
-	display-combi: "Combi";
+	display-combi: "";
 	display-keys: "Keys";
 	display-filebrowser: "Files";
 
@@ -186,4 +186,4 @@ configuration {
 
 //@theme "/home/jleiva/.config/rofi/launchers/type-3/style-3.rasi"
 
-@theme "/usr/share/rofi/themes/solarized.rasi"
+@theme "~/.config/rofi/themes/waybar-match.rasi"

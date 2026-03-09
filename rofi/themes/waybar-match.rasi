@@ -1,0 +1,120 @@
+/* Rofi theme aligned with waybar colors */
+* {
+    bg: #3b3f51;
+    bg-alt: #4a4f64;
+    fg: #ffffff;
+    fg-muted: #c7ccdb;
+    accent: #89b4fa;
+
+    background-color: transparent;
+    text-color: @fg;
+    font: "Roboto 12";
+}
+
+window {
+    location: center;
+    anchor: center;
+    width: 42%;
+    border: 2px;
+    border-color: @bg-alt;
+    border-radius: 10px;
+    background-color: @bg;
+}
+
+mainbox {
+    spacing: 10px;
+    padding: 14px;
+    background-color: transparent;
+}
+
+inputbar {
+    spacing: 8px;
+    padding: 8px 10px;
+    border-radius: 6px;
+    background-color: @bg-alt;
+    text-color: @fg;
+}
+
+prompt {
+    text-color: @accent;
+}
+
+entry {
+    placeholder: "Buscar...";
+    placeholder-color: @fg-muted;
+}
+
+listview {
+    lines: 10;
+    columns: 1;
+    dynamic: false;
+    scrollbar: true;
+    spacing: 6px;
+    padding: 4px;
+    background-color: transparent;
+}
+
+scrollbar {
+    width: 5px;
+    handle-width: 8px;
+    handle-color: @bg-alt;
+    border-radius: 6px;
+    background-color: transparent;
+}
+
+element {
+    padding: 8px 10px;
+    border-radius: 6px;
+    background-color: transparent;
+    text-color: @fg;
+}
+
+element normal.urgent,
+element alternate.urgent {
+    background-color: #6e3b3b;
+    text-color: @fg;
+}
+
+element selected.normal,
+element selected.active,
+element selected.urgent {
+    background-color: @bg-alt;
+    text-color: @fg;
+}
+
+element-text {
+    vertical-align: 0.5;
+    text-color: inherit;
+}
+
+element-icon {
+    size: 1.0em;
+    vertical-align: 0.5;
+}
+
+mode-switcher {
+    spacing: 6px;
+    background-color: transparent;
+}
+
+button {
+    padding: 6px 8px;
+    border-radius: 5px;
+    background-color: @bg-alt;
+    text-color: @fg-muted;
+}
+
+button selected {
+    background-color: @accent;
+    text-color: #1e1e2e;
+}
+
+message {
+    padding: 8px;
+    border-radius: 6px;
+    background-color: @bg-alt;
+}
+
+textbox {
+    text-color: @fg;
+}
