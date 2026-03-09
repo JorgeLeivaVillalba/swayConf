@@ -1,4 +1,4 @@
-@define-color waybar-bg #3b3f51;
+@define-color waybar-bg rgba(59, 63, 81, 0.25);
 @define-color waybar-fg #ffffff;
 
 * {
