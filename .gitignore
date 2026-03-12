@@ -7,6 +7,9 @@
 /xfce4
 /Thunar
 /xarchiver 
+/remmina
+/freerdp
+/autostart
 accels.scm
 thunar.xml
 mimeapps.list

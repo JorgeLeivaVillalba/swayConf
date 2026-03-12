@@ -24,7 +24,7 @@
     "custom/power": {
         "format": "",
         "tooltip-format": "power manager",
-        "on-click": "swaynag -t warning -m 'Power Menu Options' -b 'Shutdown' 'shutdown -h now' -b 'Restart' 'shutdown -r now' -b 'Logout' 'swaymsg exit' -b 'Hibernate' 'systemctl hibernate' --background=#005566 --button-background=#009999 --button-border=#002b33 --border-bottom=#002b33"
+        "on-click": "swaynag -t warning -m 'Power Menu Options' -b 'Shutdown' 'shutdown -h now' -b 'Restart' 'shutdown -r now' -b 'Logout' 'swaymsg exit' -b 'Hibernate' 'systemctl hibernate' --background=#3b3f51 --border=#3b3f51 --border-bottom=#3b3f51 --text=#ffffff --button-background=#4f556e --button-border=#4f556e --button-text=#ffffff"
     },
 
     "clock": {

@@ -1,4 +1,4 @@
-@define-color waybar-bg rgba(59, 63, 81, 0.25);
+@define-color waybar-bg rgba(59, 63, 81, 0.0);
 @define-color waybar-fg #ffffff;
 
 * {
@@ -38,8 +38,12 @@ window#waybar.hidden {
     font-weight: bold;
     color: @waybar-fg;
     background: @waybar-bg;
-    padding: 5px 10px;
+    padding: 5px 8px;
     border-radius: 4px;
+}
+
+#custom-power:hover {
+    background: rgba(59, 63, 81, 0.45);
 }
 
 #battery,
